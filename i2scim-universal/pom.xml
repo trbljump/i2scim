@@ -8,6 +8,8 @@
     <artifactId>i2scim-universal</artifactId>
     <version>0.7.0-SNAPSHOT</version>
     <properties>
+        <jandex-plugin.groupId>io.smallrye</jandex-plugin.groupId>
+        <jandex-plugin.version>3.1.7</jandex-plugin.version>
         <compiler-plugin.version>3.11.0</compiler-plugin.version>
         <i2scim.version>0.7.0-SNAPSHOT</i2scim.version>
         <maven.compiler.release>11</maven.compiler.release>
@@ -78,9 +80,9 @@
     <build>
         <plugins>
             <plugin>
-                <groupId>org.jboss.jandex</groupId>
+                <groupId>${jandex-plugin.groupId}</groupId>
                 <artifactId>jandex-maven-plugin</artifactId>
-                <version>1.2.3</version>
+                <version>${jandex-plugin.version}</version>
                 <executions>
                     <execution>
                         <id>make-index</id>
