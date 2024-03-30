@@ -53,7 +53,7 @@
         <quarkus.platform.version>3.5.2</quarkus.platform.version>
         <skipITs>true</skipITs>
         <surefire-plugin.version>3.0.0</surefire-plugin.version>
-        <i2scim.version>0.7.0-SNAPSHOT</i2scim.version>
+        <i2scim.version>0.7.1-SNAPSHOT</i2scim.version>
     </properties>
     <scm>
         <connection>scm:git:https://github.com/i2-open/i2scim.git</connection>
